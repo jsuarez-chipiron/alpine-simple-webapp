@@ -1,7 +1,4 @@
-FROM alpine:latest
-
-## Install OpenJDK
-RUN apk add --update openjdk8
+FROM frolvlad/alpine-oraclejdk8
 
 ## Install Maven
 RUN apk add maven --update-cache --repository http://dl-4.alpinelinux.org/alpine/edge/community/ --allow-untrusted \
