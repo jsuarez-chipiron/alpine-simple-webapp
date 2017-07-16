@@ -4,6 +4,8 @@ This image install a simple webapp in an embed tomcat.
 
 OpenJDK8 is used for compiling and running the app. The app is compiled when the image is build. For that reason maven is installed to compile the image.
 
+Here is the hub-docker repository [https://hub.docker.com/r/jsuarez/alpine-simple-webapp/](https://hub.docker.com/r/jsuarez/alpine-simple-webapp/)
+
 ## Run the image
 
 ```
